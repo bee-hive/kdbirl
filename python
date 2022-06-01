@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+module load anaconda3
+conda init bash
+source ~/.bashrc
+
+conda activate birl
+python "$@"
